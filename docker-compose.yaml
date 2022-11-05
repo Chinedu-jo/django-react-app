@@ -2,14 +2,14 @@ version: '3.8'
 
 services:
   api:
-    image: api
+    image: nedudev/api
     build: ./api
     container_name: api_c
     ports:
       - "4000:4000"
 
   frontend:
-    image: frontend
+    image: nedudev/frontend
     build: ./frontend
     container_name: frontend_c
     ports:

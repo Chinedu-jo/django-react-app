@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 4000
 
-CMD ["python", "manage.py"]
+CMD ["python", "manage.py", "runserver"]
